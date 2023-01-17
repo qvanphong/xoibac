@@ -12,7 +12,7 @@ const choiceValue = {
 
 module.exports = async function handle(interaction) {
   if (!BetRound.isOnGame) {
-    await interaction.reply('Chưa có cái, ai muốn làm cái gõ /batdau')
+    await interaction.reply('Chưa có cái, khứa nào muốn làm cái thì gõ /batdau')
     return
   }
 
